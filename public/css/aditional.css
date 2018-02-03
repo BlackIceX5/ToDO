@@ -1,0 +1,70 @@
+.btn-group.special {
+  display: flex;
+}
+
+.special .btn, .special-form {
+  flex: 1;
+}
+
+.deleteBtn{
+	width:100%;
+	border-bottom-left-radius:0;
+	border-top-left-radius:0;
+}
+
+.card-header {
+    padding: 1%;
+    margin-bottom: 0;
+    background-color: rgb(248, 249, 250);;
+    border-bottom: none;
+}
+
+.modal-header{
+	background:#343a40;
+	color:white;
+}
+
+.close{
+	font-size: 1.7125rem;
+    color: #fff;
+}
+
+.break-word {
+	white-space: normal;
+	word-wrap: break-word;
+	max-width: 100%;
+}
+
+.boxshadow {
+    position: relative;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, .5);
+    background: white;
+	margin: 0.7%;
+	cursor:pointer;
+}
+
+.boxshadow:hover {
+  box-shadow: 0 5px 15px rgb(42, 178, 123);
+  -webkit-transition: all 100ms ease-in;
+  -ms-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  
+
+
+}
+
+.boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 98%; 
+    left: 1%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+.pointer{
+	cursor:pointer;
+}
